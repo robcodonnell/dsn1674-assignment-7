@@ -108,6 +108,7 @@ figure {
   width: 60%;
   text-align: center;
   font-weight: bold;
+  box-shadow: 0.2em 0.2em 2em black;
 }
 .btn2 {
   display: inline-block;
@@ -123,6 +124,7 @@ figure {
   width: 60%;
   text-align: center;
   font-weight: bold;
+  box-shadow: 0.2em 0.2em 2em black;
 }
 .btn3 {
   display: inline-block;
@@ -138,6 +140,7 @@ figure {
   width: 60%;
   text-align: center;
   font-weight: bold;
+  box-shadow: 0.2em 0.2em 2em black;
 }
 .btn4 {
   display: inline-block;
@@ -153,6 +156,7 @@ figure {
   width: 60%;
   text-align: center;
   font-weight: bold;
+  box-shadow: 0.2em 0.2em 2em black;
 }
 
 .ant-beetle {
@@ -171,14 +175,12 @@ div {
   position: relative;
 }
 footer {
-  background-color: #512200;
-  opacity: 0.5;
-  clear: both;
+  background-color: #a79181;
   text-align: center;
-  background-image: url("../img/beetle.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100%;
 }
 .graphic {
-  width: 20%;
+  width: 10%;
+  margin: 45%;
+  padding: 0;
 }
