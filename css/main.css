@@ -5,3 +5,59 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+}
+.masthead {
+  background-image: url("../img/beetle.svg"), url("../img/beetle.svg"), url("../img/waves.png");
+  background-size: 75px auto, 75px auto, 100px auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left top, right top, center 10px;
+}
+h1 {
+  text-align: center;
+  color: #512200;
+  margin: 0;
+  padding: 25px 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 1em;
+  color: white;
+  background-color: #512200;
+  opacity: 0.5;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.9em;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  width: 25%;
+}
+nav ol{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.rocks {
+  width: 100%;
+  position: relative;
+}
+img {
+  width: 100%;
+}
+figure {
+  margin: 0;
+}
+.pics {
+  position: relative;
+  clear: both;
+}
