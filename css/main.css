@@ -5,22 +5,26 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   font-family: 'Dosis', sans-serif;
   margin: 0;
 }
+
 .masthead {
   background-image: url("../img/beetle.svg"), url("../img/beetle.svg"), url("../img/waves.png");
   background-size: 75px auto, 75px auto, 100px auto;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left top, right top, center 10px;
 }
+
 h1 {
   text-align: center;
   color: #512200;
   margin: 0;
   padding: 25px 0;
 }
+
 nav a {
   text-decoration: none;
   display: block;
@@ -33,11 +37,18 @@ nav a {
   text-align: center;
   font-size: 0.9em;
 }
+
 a:hover {
   background-color: #512200;
   opacity: .75;
   color: white;
 }
+
+div a:hover {
+  background-image: linear-gradient(to bottom, #68993c, #33692e);
+  opacity: 1;
+}
+
 nav li {
   list-style-type: none;
   display: inline-block;
@@ -46,16 +57,19 @@ nav li {
   text-align: center;
   width: 25%;
 }
+
 nav ol{
   width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-.rocks {
+
+.rock-pic {
   width: 100%;
   position: relative;
 }
+
 .words {
   color: #fff;
   text-align: center;
@@ -67,33 +81,41 @@ nav ol{
   float: center;
   padding: 0 25px;
 }
+
 img {
   width: 100%;
   display: block;
 }
+
 figure {
   margin: 0;
 }
+
 .pics {
   clear: both;
   position: relative;
 }
+
 .ant {
   float: left;
   width: 50%;
 }
+
 .stag {
   float: right;
   width: 50%
 }
+
 .dung {
   float: left;
   width: 50%;
 }
+
 .tortoise {
   float: right;
   width: 50%
 }
+
 .btn1 {
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -110,6 +132,7 @@ figure {
   font-weight: bold;
   box-shadow: 0.2em 0.2em 2em black;
 }
+
 .btn2 {
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -126,6 +149,7 @@ figure {
   font-weight: bold;
   box-shadow: 0.2em 0.2em 2em black;
 }
+
 .btn3 {
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -142,6 +166,7 @@ figure {
   font-weight: bold;
   box-shadow: 0.2em 0.2em 2em black;
 }
+
 .btn4 {
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -162,23 +187,29 @@ figure {
 .ant-beetle {
   position: relative;
 }
+
 .stag-beetle {
   position: relative;
 }
+
 .dung-beetle {
   position: relative;
 }
+
 .tortoise {
   position: relative;
 }
+
 div {
   position: relative;
 }
+
 footer {
   background-color: #a79181;
   text-align: center;
   width: 100%;
 }
+
 .graphic {
   width: 10%;
   margin: 45%;
