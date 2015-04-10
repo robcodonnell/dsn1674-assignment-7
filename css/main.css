@@ -80,6 +80,8 @@ nav ol{
   font-weight: bold;
   float: center;
   padding: 0 25px;
+  background-image: linear-gradient(to bottom, transparent, black);
+  margin: 0;
 }
 
 img {
